@@ -1,0 +1,6 @@
+Clip moments (ticked only when seen in the preview screenshots):
+[x] 1. Standing still: red turret bullets crawl in slow motion, the corner shows TIME 12%.
+[x] 2. Strafing: the corner jumps to TIME 95% and the whole room speeds up.
+[x] 3. Running into a red turret: it cracks, then shatters into red glass with the SUPER HOT text.
+[x] 4. A bullet flies into a Portal 2 portal ring and comes out of the other ring.
+[x] 5. A black Companion Cube dropped from the ceiling lands on a turret and shatters it.
