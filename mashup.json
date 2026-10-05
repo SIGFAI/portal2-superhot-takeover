@@ -1,0 +1,172 @@
+{
+  "id": "sigf/portal2-superhot-takeover",
+  "version": "1.0.0",
+  "name": "SUPERHOT Takeover",
+  "tagline": "Bring SUPERHOT into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "portal2",
+      "role": "host",
+      "engine": "Portal 2 (Source, 32 bits) + VScript (Squirrel 2.2)",
+      "apps": {
+        "steam": "620"
+      }
+    },
+    {
+      "game": "superhot",
+      "role": "guest",
+      "label": "SUPERHOT"
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "portal2",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "portal2-superhot-takeover.zip",
+          "dst": "{game}/sigf_superhot_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "scripts/vscripts/sigf_demo.nut",
+              "sha256": "8eada2fb658a3dcab93f1de33faf57ff3c8b197095af7e1b6d83e6040f35779a"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mod.nut",
+              "sha256": "068881c4dda3574befe4e677b2a8839e1bfc95f4116bbf3935778217adc270e3"
+            },
+            {
+              "path": "sound/sigf/bulletfire.wav",
+              "sha256": "ef3849d739f9ef436c4e1782b88b837ed4ed355f63734fe7f553d8400a9b9b48"
+            },
+            {
+              "path": "sound/sigf/shatter.wav",
+              "sha256": "a0a7437c214f1de365bf9fb50423ba222e0e842bcd7810735cddd5c0dcf0abcc"
+            },
+            {
+              "path": "sound/sigf/slowdown.wav",
+              "sha256": "b18593e762fa6d9d5d1a0ff6686f6538067cf43b4137f76d85f76807c792d911"
+            },
+            {
+              "path": "sound/sigf/speedup.wav",
+              "sha256": "6bce41e9959da90e257336637a2ca24f3d796ae5305d5ec748b59fceff2149c9"
+            },
+            {
+              "path": "sound/sigf/superhot.wav",
+              "sha256": "9025f552e28b26917e315ad3338a5b618bc29771581d007a42c31b597b7997fe"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-superhot-takeover/releases/download/v1.0.0/portal2-superhot-takeover.zip",
+          "sha256": "ca7a388b9a1512aa86983af8488374c9b28f5347963779d53d31e7e5f59710f9",
+          "size": 506557
+        },
+        {
+          "src": "portal2-superhot-takeover-game-kit.zip",
+          "dst": "{game}/sigf_superhot_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "cfg/sigf_game.cfg",
+              "sha256": "6f932e25d0bed3c48efe681a7a4c43aab83f42233b55655c27e4f4e5b0950b5e"
+            },
+            {
+              "path": "cfg/sigf_rec.cfg",
+              "sha256": "e7815e54ae79bbb159a36435022750280ad2992ece2c2a9b570c6ff4db184cca"
+            },
+            {
+              "path": "gameinfo.txt",
+              "sha256": "509c58bbd5a477768b3e34f3a6dba6d9d6e7507715bb72606b841872e73f2539"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vmt",
+              "sha256": "b5b5a1f62c170477fdf0cb523b21c3da397a85b0cad470e2e8e90a61763200f4"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vtf",
+              "sha256": "66a14c89c2fa080aea7953d6d741f55025f339416b713aaafadd5f54d15a7ecf"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vmt",
+              "sha256": "d745e5b8629577b7ece072a1135cda1edbd9562c364e2641d45599b58853c45a"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vtf",
+              "sha256": "8b87f69add0d1849d8bdc06d5e1135531517150a0173d44bdefb7e293c7c9358"
+            },
+            {
+              "path": "scripts/vscripts/mapspawn.nut",
+              "sha256": "0a1139812204d68668448646e5fd2e5b931e1ddaa680c46cb132c864decd33d2"
+            },
+            {
+              "path": "scripts/vscripts/sigf_bricks.nut",
+              "sha256": "3061dc6a358642db7d716a87ca1e3f12a1f6682b61ba1db03476cb287605f0e1"
+            },
+            {
+              "path": "scripts/vscripts/sigf_idle.nut",
+              "sha256": "058ebd51ad50186353a76e92c22edc3adfdca80e2d93cc2f5c8b4234c7e0defc"
+            },
+            {
+              "path": "scripts/vscripts/sigf_lib.nut",
+              "sha256": "05dd16f6c6c6ba2ff731f3a7c5ab86f5f772bf9f47bcf7615b95b9474ec53175"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mode.nut",
+              "sha256": "b2f2524f92d28a7bcc12921baebee0ad449e36db7cd9d8ff8d6de6ff57591beb"
+            },
+            {
+              "path": "scripts/vscripts/sigf_stage.nut",
+              "sha256": "6c9e841b49c906bd8b44608d30d054d07371995dfc1b03f0a593635b174e59f4"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-superhot-takeover/releases/download/v1.0.0/portal2-superhot-takeover-game-kit.zip",
+          "sha256": "390142450e5f43f0ca8fea3d5ade774f6a12f50a85b4ad923e0a14cfe06085df",
+          "size": 50471
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "portal2",
+      "args": [
+        "-game",
+        "sigf_superhot_takeover"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "portal2-superhot-takeover.zip",
+      "url": "https://github.com/SIGFAI/portal2-superhot-takeover/releases/download/v1.0.0/portal2-superhot-takeover.zip",
+      "sha256": "ca7a388b9a1512aa86983af8488374c9b28f5347963779d53d31e7e5f59710f9",
+      "size": 506557
+    },
+    {
+      "name": "portal2-superhot-takeover-game-kit.zip",
+      "url": "https://github.com/SIGFAI/portal2-superhot-takeover/releases/download/v1.0.0/portal2-superhot-takeover-game-kit.zip",
+      "sha256": "390142450e5f43f0ca8fea3d5ade774f6a12f50a85b4ad923e0a14cfe06085df",
+      "size": 50471
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/portal2-superhot-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "portal2",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:24:20.795Z",
+  "notes": [
+    "Copy the mod folder's scripts, sound and materials into a new \"sigf\" folder next to Portal 2's portal2 folder, add a gameinfo.txt that mounts portal2, then launch Portal 2 with -game sigf +sv_cheats 1 +map sp_a2_turret_intro. Stand still for slow motion, move to speed time up, and ram the red turrets."
+  ]
+}
