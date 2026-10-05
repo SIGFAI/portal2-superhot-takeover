@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "SUPERHOT Takeover",
   "tagline": "Bring SUPERHOT into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Time only moves when you move: stand still for slow motion, move to speed it up.",
+    "Red glass turrets fire slow red bullets at you; dodge them.",
+    "Run into a red turret to shatter it, or hit it with a thrown or falling cube.",
+    "Open the console and type: map sp_a2_turret_intro"
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -165,8 +171,5 @@
     "id": "portal2",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:24:20.795Z",
-  "notes": [
-    "Copy the mod folder's scripts, sound and materials into a new \"sigf\" folder next to Portal 2's portal2 folder, add a gameinfo.txt that mounts portal2, then launch Portal 2 with -game sigf +sv_cheats 1 +map sp_a2_turret_intro. Stand still for slow motion, move to speed time up, and ram the red turrets."
-  ]
+  "built_at": "2026-10-05T15:24:20.795Z"
 }
